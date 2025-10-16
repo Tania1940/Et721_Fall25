@@ -27,10 +27,18 @@ new_file("Akthar.txt")
 print("\n ----- example 7: append data into an existing file -----")
 stamp_date("Akthar.txt")
 
-print("\ ----- EXERCISE -----")
-count_yahoo = email_read("user_email.txt","@yahoo")
-count_gmail = email_read("user_email.txt","@gmail")
-count_hotmail = email_read("user_email.txt","@hotmail")
+print("\n ----- EXERCISE -----")
+
+count_yahoo = email_read("user_email.txt", "@yahoo")
+print("yahoo =", count_yahoo)
+
+count_gmail = email_read("user_email.txt", "@gmail")
+print("gmail =", count_gmail)
+
+count_hotmail = email_read("user_email.txt", "@hotmail")
+print("hotmail =", count_hotmail)
+
+write_report(count_gmail, count_yahoo, count_hotmail)
 
 
 
