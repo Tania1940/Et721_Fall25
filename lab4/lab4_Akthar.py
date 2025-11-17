@@ -3,24 +3,21 @@ Tania Akthar
 lab 4, dictionary and functions
 Sep 10, 2025
 """
+
 print("----- Example 1: dictionary -----")
 # contact dictionary  with three different users
-contacts ={
-    "Bill" : "718-111-2222",
-    "Martha" : "646-000-333",
-    "Peter" : "212-000-1111"
-}
+contacts = {"Bill": "718-111-2222", "Martha": "646-000-333", "Peter": "212-000-1111"}
 print(contacts)
 # save the value of a specific key
 user1 = contacts["Martha"]
 print(f"user's phone number ={user1}")
 
-#add new content to the dictionary
-contacts['Anna'] = "646-222-3333"
+# add new content to the dictionary
+contacts["Anna"] = "646-222-3333"
 print(contacts)
 
 print("----- Example 2: loop through a dictionary ----- ")
-# print each key in the dictionary 
+# print each key in the dictionary
 for i in contacts:
     print(i)
 
@@ -48,7 +45,7 @@ print(contacts)
 
 print("----- Example 6: add a new key:value pair in a dictionary -----")
 print(contacts)
-contacts.update({"Lucas":"212-111-1111"})
+contacts.update({"Lucas": "212-111-1111"})
 print(contacts)
 
 print("----- Example 7: return items, keys, and values in a dictionary -----")
@@ -76,7 +73,15 @@ for word in word_count_dict:
 print(" ----- EXERCISE ----- ")
 print(" ----- EXERCISE ----- ")
 
-emails = ["peterpan@yahoo.com","annie@hotmail.com","carl@hotmail.com","martha@gmail.com","cassie@yahoo.com","josue@hotmail.com", "john@hotmail.com"]
+emails = [
+    "peterpan@yahoo.com",
+    "annie@hotmail.com",
+    "carl@hotmail.com",
+    "martha@gmail.com",
+    "cassie@yahoo.com",
+    "josue@hotmail.com",
+    "john@hotmail.com",
+]
 domains_list = []
 
 for item in emails:

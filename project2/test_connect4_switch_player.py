@@ -13,27 +13,27 @@ class TestSwitchPlayer(unittest.TestCase):
     def test_switch_from_X_to_O(self):
         """Verify the player changes from X to O."""
         game = Connect4()
-        game.current_player = 'X'
+        game.current_player = "X"
         game.switch_player()
-        self.assertEqual(game.current_player, 'O')
+        self.assertEqual(game.current_player, "O")
 
     def test_switch_from_O_to_X(self):
         """Verify the player changes from O to X."""
         game = Connect4()
-        game.current_player = 'O'
+        game.current_player = "O"
         game.switch_player()
-        self.assertEqual(game.current_player, 'X')
+        self.assertEqual(game.current_player, "X")
 
     def test_multiple_switches(self):
         """Ensure switching twice returns to the original player."""
         game = Connect4()
-        game.current_player = 'X'
+        game.current_player = "X"
         game.switch_player()  # becomes O
         game.switch_player()  # back to X
-        self.assertEqual(game.current_player, 'X')
+        self.assertEqual(game.current_player, "X")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
 
 """

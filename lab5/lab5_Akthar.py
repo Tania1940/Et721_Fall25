@@ -14,16 +14,16 @@ what is function?
 - The body of the function only runs when the function is called.
 - To call a funtion, we need to write the funtion's name and parentheses
 """
-#import python file
+# import python file
 from lab5_Akthar_function import *
 
 # call function product()
 print("\n----- Example 1: intro function -----")
 n1 = 2
 n2 = 5
-p = product(n1,n2)
+p = product(n1, n2)
 print(f"The product of {n1} and {n2} is {p}")
-p = product ()
+p = product()
 print(f"The product is {p}")
 p = product(5)
 print(f"The product is {p}")
@@ -34,7 +34,9 @@ s2 = 3
 hyp = hypotenuse(s1, s2)
 print(f"The hypotenuse is {hyp:0.2f}")
 
-print("\n----- Example 3: function to check if the number is positive, negative, or zero. -----")
+print(
+    "\n----- Example 3: function to check if the number is positive, negative, or zero. -----"
+)
 c = check_number(-3)
 print(f"The number is {c}")
 c = check_number(5)

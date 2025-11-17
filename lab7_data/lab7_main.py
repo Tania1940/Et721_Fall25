@@ -3,6 +3,7 @@ Tania Akthar
 lab 7, accessing data in a file
 Oct 14, 2025
 """
+
 from lab7_function import *
 
 
@@ -39,6 +40,3 @@ count_hotmail = email_read("user_email.txt", "@hotmail")
 print("hotmail =", count_hotmail)
 
 write_report(count_gmail, count_yahoo, count_hotmail)
-
-
-
