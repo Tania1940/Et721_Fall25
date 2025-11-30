@@ -43,6 +43,22 @@ width: 57%;
     padding: 1rem;
     border: solid gray 1px;
 }
-.dolist_list{
+.listitem{
     list-style: none;
+    padding: 1rem;
+    border: solid gray 1px;
+}
+.completed{
+    color: whitesmoke;
+    text-decoration: line-through;
+    background-color: rgb(50, 50, 50);
+}
+
+.linkitem{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+.linkitem:hover{
+    text-decoration: underline;
+    font-weight: bolder;
 }
