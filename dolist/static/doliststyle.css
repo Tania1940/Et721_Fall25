@@ -24,9 +24,17 @@ width: 57%;
 }
 .btndeleteeach{
     background-color: orange;
+    text-align: center;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 .btndeleteall{
-    background-color: rgb(219, 120, 0);
+    background-color: rgb(222, 126, 8);
+    text-align: center;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 .btndeleteeach:hover, .btndeleteall:hover, .btnaddlist:hover{
     background-color: darkred;
@@ -46,7 +54,7 @@ width: 57%;
 .listitem{
     list-style: none;
     padding: 1rem;
-    border: solid gray 1px;
+    background-color: rgb(230, 230, 230);
 }
 .completed{
     color: whitesmoke;

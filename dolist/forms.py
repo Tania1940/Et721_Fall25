@@ -6,6 +6,6 @@ class Todolisform(forms.Form):
                 'class': 'todo_text',
                 'placeholder': 'Enter to do...',
                 'aria-label': 'Todo',
-                'aria-describedby': 'add-btn',
+                'aria-describedby': 'btnaddlist',
             }
         ))
